@@ -18,6 +18,29 @@ body{
     justify-content: center;
     gap: 20px; /* buttons ke beech space */
 }
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    padding: 12px 30px;
+    border: 2px solid #ff4d6d;
+    border-radius: 10px;
+    background-color: white;
+    color: #ff4d6d;
+    font-size: 18px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.button a:hover {
+    background-color: #ff4d6d;
+    color: white;
+    transform: scale(1.05);
+}
 
 .container {
     display: flex;
