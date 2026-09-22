@@ -44,6 +44,16 @@
             type="text/javascript"
             async
             src="https://tenor.com/embed.js">
+            const noButton =
+                document.getElementByld("noButton");
+
+            noButton.addEventListener("mouseover", function(){
+                const x = Math.random()*(window.innerWidth-150);
+                const y = Math.random()*(window.innerHeight-80);
+
+                noButton.style.position = "fixed";
+                noButton.style.left = x+ "px";
+                noButton.style.top= y+ "px";
         </script>
 
         <h1 style="
