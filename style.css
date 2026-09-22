@@ -13,6 +13,11 @@ body{
     align-items: center;
     background-color: #ffe5e5;
 }
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* buttons ke beech space */
+}
 
 .container {
     display: flex;
